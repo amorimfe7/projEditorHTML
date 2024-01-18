@@ -1,0 +1,15 @@
+C:\Projetos\projEditorHTML\bin\Debug\net8.0\EditorHTML.exe
+C:\Projetos\projEditorHTML\bin\Debug\net8.0\EditorHTML.deps.json
+C:\Projetos\projEditorHTML\bin\Debug\net8.0\EditorHTML.runtimeconfig.json
+C:\Projetos\projEditorHTML\bin\Debug\net8.0\EditorHTML.dll
+C:\Projetos\projEditorHTML\bin\Debug\net8.0\EditorHTML.pdb
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\EditorHTML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\EditorHTML.AssemblyInfoInputs.cache
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\EditorHTML.AssemblyInfo.cs
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\EditorHTML.csproj.CoreCompileInputs.cache
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\EditorHTML.sourcelink.json
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\EditorHTML.dll
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\refint\EditorHTML.dll
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\EditorHTML.pdb
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\EditorHTML.genruntimeconfig.cache
+C:\Projetos\projEditorHTML\obj\Debug\net8.0\ref\EditorHTML.dll
