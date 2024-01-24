@@ -63,6 +63,20 @@ namespace EditorHTML{
             Console.SetCursorPosition(3, 1);
             Console.Write("Opção: ");
         }
-    
+
+        public static void HandleMenuOption(short option){
+            
+            switch(option){
+                // case 1: Console.Clear(); Editor.Show(); break;
+                // case 2: Console.Clear(); Viewer.AcessFile(); break;
+                // case 3: Viewer.Show(""); break;
+                case 0: {
+                    Console.Clear();
+                    Environment.Exit(0); 
+                    break;
+                }
+                default: Show(); break;
+            }
+        }
     }
 }
