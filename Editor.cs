@@ -12,5 +12,62 @@ namespace EditorHTML{
             Console.WriteLine("Digite seu texto abaixo || Pressione [ESC] para sair ");
             // Start();
         }
+
+        public static void Start() {
+            var file = new StringBuilder();
+            
+            do{
+                file.Append(Console.ReadLine()); //ler linha e jogar dentro do file
+                file.Append(Environment.NewLine); //add nova linha
+
+            } while(Console.ReadKey().Key != ConsoleKey.Escape);
+
+            Console.WriteLine("------------------------------------------------------");
+            Console.WriteLine("\nADeseja salvar o arquivo?");
+            Console.WriteLine("[1] - Sim || [2] - Não");
+
+            short optionSave = short.Parse(Console.ReadLine());
+        
+            switch(optionSave){
+                case 1: Save(file); break;
+                case 2:{
+                        Console.WriteLine("\n Fechando Editor...");
+                        Thread.Sleep(900);
+                        Menu.Show(); 
+                        break;
+                    }
+                default: Menu.Show(); break;
+            }
+
+        }
+
+        public static void Save(StringBuilder file){
+                Console.WriteLine("\nInsira o caminho do arquivo || Ex: C:\\Projetos\\");
+                string path = Console.ReadLine();
+                Console.WriteLine("\nInsira o nome do arquivo || Inclua a extensão (.txt)");
+                string nameFile = Console.ReadLine();
+                string concatena = path+nameFile;
+
+                using(var arq = new StreamWriter(concatena)){
+                    arq.Write(file);
+                }
+                
+                Console.WriteLine("\nProcessando arquivo..");
+                Thread.Sleep(900);
+                
+                Console.WriteLine($"\n* Arquivo {nameFile} salvo com sucesso! *");
+                Console.WriteLine("------------------------------------------------------");
+                Console.WriteLine("\nDeseja visualizar o arquivo salvo?");
+                Console.WriteLine("[1] - Sim || [2] - Não");
+                short viewFile = short.Parse(Console.ReadLine());
+
+                if (viewFile == 1){
+                    // Viewer.Show(file.ToString());
+                    Console.ReadKey();
+                    Menu.Show();
+                } else{
+                    Menu.Show();
+                }
+        }
     }
 }
