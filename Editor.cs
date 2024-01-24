@@ -10,7 +10,7 @@ namespace EditorHTML{
             Console.WriteLine("\n =========== MODO DE EDIÇÃO ===========\n");
             Thread.Sleep(650);
             Console.WriteLine("Digite seu texto abaixo || Pressione [ESC] para sair ");
-            // Start();
+            Start();
         }
 
         public static void Start() {
@@ -62,7 +62,7 @@ namespace EditorHTML{
                 short viewFile = short.Parse(Console.ReadLine());
 
                 if (viewFile == 1){
-                    // Viewer.Show(file.ToString());
+                    Viewer.Show(file.ToString());
                     Console.ReadKey();
                     Menu.Show();
                 } else{
