@@ -9,6 +9,7 @@ namespace EditorHTML{
             Console.ForegroundColor = ConsoleColor.Black; //cor da letra
 
             DrawScreen();
+            WriteOptions();
         }
 
         public static void DrawScreen()
@@ -42,5 +43,26 @@ namespace EditorHTML{
                 Console.Write("\n");
             }
         }
+
+        public static void WriteOptions(){
+            Console.SetCursorPosition(3, 2);
+            Console.WriteLine("===========BEM VINDO AO EDITOR HTML===========");
+
+            Console.SetCursorPosition(3, 4);
+            Console.WriteLine("Selecione uma opção abaixo");
+
+            Console.SetCursorPosition(3, 5);
+            Console.WriteLine("[1] - Criar um novo arquivo");
+
+            Console.SetCursorPosition(3, 6);
+            Console.WriteLine("[2] - Visualizar um arquivo existente");
+
+            Console.SetCursorPosition(3, 7);
+            Console.WriteLine("[0] - Sair");
+
+            Console.SetCursorPosition(3, 1);
+            Console.Write("Opção: ");
+        }
+    
     }
 }
