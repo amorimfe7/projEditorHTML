@@ -10,6 +10,9 @@ namespace EditorHTML{
 
             DrawScreen();
             WriteOptions();
+
+            var option = short.Parse(Console.ReadLine());
+            HandleMenuOption(option);
         }
 
         public static void DrawScreen()
