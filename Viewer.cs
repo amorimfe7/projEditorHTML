@@ -11,21 +11,21 @@ namespace EditorHTML{
             Thread.Sleep(500);
             Console.WriteLine("Abrindo arquivo..");
             Thread.Sleep(800);
-            // Replace(text);
+            Replace(text);
             Console.WriteLine("\n|| Pressione qualquer tecla para retornar ao Menu ||");
             Console.ReadKey();
             Menu.Show();
         }
-        public static void Replace(string text){ //ideia p tratar o arquivo, utilizando funções p melhorar o texto
+        public static void Replace(string text){ 
             var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/\s*strong>");
-            var words = text.Split(' '); //todas words no texto separadas por espaço
+            var words = text.Split(' ');
 
             for (var i = 0; i < words.Length; i++)
             {
                 if (strong.IsMatch(words[i]))
                 {
                     Console.BackgroundColor = ConsoleColor.White;
-                    Console.ForegroundColor = ConsoleColor.Black; //cor da letra
+                    Console.ForegroundColor = ConsoleColor.Black;
                     Console.Write(
                         words[i].Substring(
                             words[i].IndexOf('>') + 1,

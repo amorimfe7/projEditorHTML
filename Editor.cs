@@ -17,8 +17,8 @@ namespace EditorHTML{
             var file = new StringBuilder();
             
             do{
-                file.Append(Console.ReadLine()); //ler linha e jogar dentro do file
-                file.Append(Environment.NewLine); //add nova linha
+                file.Append(Console.ReadLine());
+                file.Append(Environment.NewLine); 
 
             } while(Console.ReadKey().Key != ConsoleKey.Escape);
 
@@ -38,7 +38,6 @@ namespace EditorHTML{
                     }
                 default: Menu.Show(); break;
             }
-
         }
 
         public static void Save(StringBuilder file){
