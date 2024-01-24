@@ -15,7 +15,7 @@ namespace EditorHTML{
 
         public static void Start() {
             var file = new StringBuilder();
-            
+             
             do{
                 file.Append(Console.ReadLine());
                 file.Append(Environment.NewLine); 

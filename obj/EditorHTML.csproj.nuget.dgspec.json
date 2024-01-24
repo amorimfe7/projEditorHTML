@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\projEditorHTML\\EditorHTML.csproj": {}
+    "c:\\Projetos\\projEditorHTML\\EditorHTML.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\projEditorHTML\\EditorHTML.csproj": {
+    "c:\\Projetos\\projEditorHTML\\EditorHTML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\projEditorHTML\\EditorHTML.csproj",
+        "projectUniqueName": "c:\\Projetos\\projEditorHTML\\EditorHTML.csproj",
         "projectName": "EditorHTML",
-        "projectPath": "C:\\Projetos\\projEditorHTML\\EditorHTML.csproj",
+        "projectPath": "c:\\Projetos\\projEditorHTML\\EditorHTML.csproj",
         "packagesPath": "C:\\Users\\Amorim\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\projEditorHTML\\obj\\",
+        "outputPath": "c:\\Projetos\\projEditorHTML\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amorim\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
 
 namespace EditorHTML{
-    public class Viewer(){
+    public class Viewer(){  
         public static void Show(string text){
             Console.Clear();
             Console.BackgroundColor = ConsoleColor.Blue;
