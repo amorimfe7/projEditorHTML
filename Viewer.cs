@@ -16,7 +16,6 @@ namespace EditorHTML{
             Console.ReadKey();
             Menu.Show();
         }
-
         public static void Replace(string text){ //ideia p tratar o arquivo, utilizando funções p melhorar o texto
             var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/\s*strong>");
             var words = text.Split(' '); //todas words no texto separadas por espaço
